@@ -1,0 +1,8 @@
+spring:
+  cloud:
+    nacos:
+      config:
+        namespace: test
+        file-extension: yaml
+      discovery:
+        namespace: test

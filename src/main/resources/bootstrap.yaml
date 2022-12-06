@@ -1,0 +1,11 @@
+spring:
+  profiles:
+    active: test
+  application:
+    name: message
+  cloud:
+    nacos:
+      config:
+        server-addr: 192.168.3.5:8848
+      discovery:
+        server-addr: 192.168.3.5:8848
